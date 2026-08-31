@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - Online Crime Reporting System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <h2>🚔 OCRS</h2>
+        </div>
+
+        <div class="header-text">
+            <h1>Online Crime Reporting System</h1>
+            <p>Report incidents securely and track your complaints online.</p>
+        </div>
+
+    </header>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <a href="index.html">Home</a>
+        <a href="complaint.html">Register Complaint</a>
+        <a href="#">Track Complaint</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Registration Section -->
+    <main>
+
+        <section class="register-section">
+
+            <div class="register-container">
+
+                <h2>Create Your Account</h2>
+
+                <p class="form-description">
+                    Register to submit and track your complaints online.
+                </p>
+
+
+                <form>
+
+                    <div class="form-row">
+
+                        <!-- First Name -->
+                        <div class="form-group">
+
+                            <label for="first-name">
+                                First Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="first-name"
+                                name="first-name"
+                                placeholder="Enter your first name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Last Name -->
+                        <div class="form-group">
+
+                            <label for="last-name">
+                                Last Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="last-name"
+                                name="last-name"
+                                placeholder="Enter your last name"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Phone Number -->
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Address -->
+                    <div class="form-group">
+
+                        <label for="address">
+                            Address
+                        </label>
+
+                        <textarea
+                            id="address"
+                            name="address"
+                            rows="3"
+                            placeholder="Enter your address"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <!-- Password -->
+                        <div class="form-group">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Create a password"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Confirm Password -->
+                        <div class="form-group">
+
+                            <label for="confirm-password">
+                                Confirm Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="confirm-password"
+                                name="confirm-password"
+                                placeholder="Confirm your password"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Terms and Conditions -->
+
+                    <div class="declaration">
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            required
+                        >
+
+                        <label for="terms">
+
+                            I agree to the Terms and Conditions and confirm
+                            that the information provided is correct.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Register Button -->
+
+                    <button
+                        type="submit"
+                        class="submit-btn"
+                    >
+                        Create Account
+                    </button>
+
+
+                    <!-- Login Link -->
+
+                    <p class="login-link">
+
+                        Already have an account?
+
+                        <a href="login.html">
+                            Login here
+                        </a>
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Online Crime Reporting System | Final Year Project
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

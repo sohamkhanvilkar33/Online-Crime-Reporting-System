@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register Complaint - Online Crime Reporting System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <h2>🚔 OCRS</h2>
+        </div>
+
+        <div class="header-text">
+            <h1>Online Crime Reporting System</h1>
+            <p>Report incidents securely and track your complaints online.</p>
+        </div>
+
+    </header>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <a href="index.html">Home</a>
+        <a href="complaint.html">Register Complaint</a>
+        <a href="#">Track Complaint</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Complaint Form Section -->
+    <main>
+
+        <section class="complaint-section">
+
+            <div class="complaint-container">
+
+                <h2>Register a Complaint</h2>
+
+                <p class="form-description">
+                    Please provide accurate information about the incident.
+                </p>
+
+
+                <form>
+
+                    <!-- Personal Information -->
+
+                    <h3>Personal Information</h3>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">Full Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">Phone Number</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Incident Information -->
+
+                    <h3>Incident Information</h3>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="crime-type">Type of Crime</label>
+
+                            <select
+                                id="crime-type"
+                                name="crime-type"
+                                required
+                            >
+
+                                <option value="">
+                                    Select Crime Type
+                                </option>
+
+                                <option value="theft">
+                                    Theft
+                                </option>
+
+                                <option value="fraud">
+                                    Fraud
+                                </option>
+
+                                <option value="cyber-crime">
+                                    Cyber Crime
+                                </option>
+
+                                <option value="harassment">
+                                    Harassment
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="incident-date">
+                                Incident Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="incident-date"
+                                name="incident-date"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="location">
+                            Incident Location
+                        </label>
+
+                        <input
+                            type="text"
+                            id="location"
+                            name="location"
+                            placeholder="Enter incident location"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="description">
+                            Complaint Description
+                        </label>
+
+                        <textarea
+                            id="description"
+                            name="description"
+                            rows="6"
+                            placeholder="Describe the incident in detail"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Evidence Upload -->
+
+                    <h3>Upload Evidence</h3>
+
+
+                    <div class="form-group">
+
+                        <label for="evidence">
+                            Upload Image or Document
+                        </label>
+
+                        <input
+                            type="file"
+                            id="evidence"
+                            name="evidence"
+                        >
+
+                    </div>
+
+
+                    <!-- Declaration -->
+
+                    <div class="declaration">
+
+                        <input
+                            type="checkbox"
+                            id="declaration"
+                            required
+                        >
+
+                        <label for="declaration">
+
+                            I confirm that the information provided by me is
+                            correct to the best of my knowledge.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Submit Button -->
+
+                    <button
+                        type="submit"
+                        class="submit-btn"
+                    >
+                        Submit Complaint
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Online Crime Reporting System | Final Year Project
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
