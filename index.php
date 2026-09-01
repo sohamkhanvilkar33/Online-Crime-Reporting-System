@@ -6,17 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
 <title>Online Crime Reporting System</title>
 
 <link rel="stylesheet" href="style.css">
-```
 
 </head>
 
 <body>
 
-```
+
 <!-- Header -->
 <header class="header">
     <div class="logo">
@@ -33,15 +31,15 @@
 <!-- Navigation Bar -->
 <nav class="navbar">
 
-    <a href="index.html">Home</a>
-    <a href="complaint.html">Register Complaint</a>
+    <a href="index.php">Home</a>
+    <a href="complaint.php">Register Complaint</a>
     <a href="#">Track Complaint</a>
     <a href="#">About</a>
     <a href="#">Contact</a>
 
     <div class="nav-buttons">
-        <a href="login.html" class="login-btn">Login</a>
-        <a href="register.html" class="register-btn">Register</a>
+        <a href="login.php" class="login-btn">Login</a>
+        <a href="register.php" class="register-btn">Register</a>
     </div>
 
 </nav>
@@ -65,7 +63,7 @@
 
             <div class="hero-buttons">
 
-                <a href="complaint.html" class="primary-btn">
+                <a href="complaint.php" class="primary-btn">
                     File a Complaint
                 </a>
 
@@ -143,7 +141,7 @@
     </p>
 
 </footer>
-```
+
 
 </body>
 
