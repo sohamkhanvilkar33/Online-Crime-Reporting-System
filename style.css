@@ -389,3 +389,122 @@ body {
     }
 
 }
+/* =========================
+   LOGIN PAGE
+========================= */
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px;
+    min-height: 600px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #041833;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #ff3b3b;
+    margin-bottom: 10px;
+}
+
+.login-container .form-description {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+
+.login-container .form-group {
+    margin-bottom: 20px;
+}
+
+.login-container .form-group input {
+    background-color: white;
+    color: black;
+}
+
+/* Login Options */
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 25px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.remember-me input {
+    width: auto;
+    cursor: pointer;
+}
+
+.remember-me label {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot-password {
+    color: #00e5ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Register Link */
+
+.register-text {
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+
+.register-text a {
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Login */
+
+@media (max-width: 768px) {
+
+    .login-section {
+        padding: 40px 20px;
+    }
+
+    .login-container {
+        padding: 25px;
+    }
+
+    .login-container h2 {
+        font-size: 30px;
+    }
+
+    .login-options {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+}
