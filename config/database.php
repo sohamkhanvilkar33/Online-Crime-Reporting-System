@@ -1,11 +1,9 @@
 <?php
 
-$env = parse_ini_file(__DIR__ . '/../.env');
-
-$host = $env['DB_HOST'];
-$username = $env['DB_USERNAME'];
-$password = $env['DB_PASSWORD'];
-$database = $env['DB_DATABASE'];
+$host = getenv('DB_HOST') ?: 'localhost';
+$username = getenv('DB_USERNAME') ?: 'root';
+$password = getenv('DB_PASSWORD') ?: '';
+$database = getenv('DB_DATABASE') ?: 'online_crime_reporting';
 
 $conn = new mysqli($host, $username, $password, $database);
 

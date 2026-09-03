@@ -1,4 +1,8 @@
 .env
+
 uploads/*
 !.gitkeep
+
 .vscode/
+
+database/init/online_crime_reporting.sql
